@@ -1,0 +1,9 @@
+.main-title {
+  background: url(../img/sandbox-gc30bcfb42_1920.jpg);
+  background-size: cover;
+  &::before {
+    content: " ";
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+  }
+}
